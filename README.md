@@ -14,14 +14,13 @@ tests/test_product_category.py - тесты <br>
 
 # Запуск
 ```bash
-# Создаем виртуальное окружение (рекомендуется)
+# Создаем виртуальное окружение
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-# или 
 venv\Scripts\activate    # Windows
 
 # Устанавливаем зависимости
-pip install pyspark pytest  # и другие зависимости из requirements.txt
+pip install pyspark pytest 
 
 # Из корня проекта
 python -m src.main
